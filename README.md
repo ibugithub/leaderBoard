@@ -1,7 +1,7 @@
 # Portfolio<a name="readme-top"></a>
 
 <div align="center">
-  <h1> Todo List | README </h1>
+  <h1> LeaderBoard | README </h1>
   <br/>
 </div>
 
@@ -27,8 +27,8 @@
 - [📝 License](#license)
 
 
-# Todo List  <a name="about-project"></a>
-**Todo List** is a project for Microverse bootcamp to implement all the learned topics about Esy syntax and ES6 modules. It is a To Do Web Application.
+# Leader Board  <a name="about-project"></a>
+**Leader Board** is a project for Microverse bootcamp to implement all the learned topics about Esy syntax and ES6 modules. It is a To Do Web Application.
 
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
@@ -51,7 +51,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Live Demo Link](https://ibugithub.github.io/todo_list/dist/)
+- [Live Demo Link](https://ibugithub.github.io/leaderBoard/dist/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>

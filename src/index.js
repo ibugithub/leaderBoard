@@ -1,10 +1,6 @@
+import recentScore from './recent_score.js';
+import addScore from './add_score.js';
 import './style.css';
-import event from './eventHandler.js';
 
-event.handleTaskList();
-event.handleCheckClick();
-event.handleAddInputElement();
-event.handleRefressIcon();
-event.handleClearSelectedButton();
-event.handlingSelectedonRef();
-event.handlingEnterIconClick();
+recentScore();
+addScore();
