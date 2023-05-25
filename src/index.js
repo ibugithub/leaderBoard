@@ -1,6 +1,6 @@
-import recentScore from './recent_score.js';
-import addScore from './add_score.js';
+import score from './recent_score.js';
+import addingScore from './add_score.js';
 import './style.css';
 
-recentScore();
-addScore();
+score.recentScore();
+addingScore.addScore();
