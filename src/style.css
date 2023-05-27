@@ -1,3 +1,8 @@
+body {
+  color: #4b4a4a;
+  background-color: black;
+}
+
 #title_refreshButton {
   display: flex;
   align-items: center;
@@ -9,7 +14,6 @@
 
 #score_table {
   margin-top: unset;
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
 }
@@ -18,6 +22,11 @@
   display: flex;
   padding: 5px;
   gap: 5px;
+  border: 2px solid powderblue;
+  border-bottom: unset;
+  margin-bottom: 5px;
+  color: #4b4a4a;
+  font-size: 13px;
 }
 
 #main_section {
@@ -30,7 +39,7 @@
 }
 
 .title_container {
-  max-width: 640px;
+  max-width: 572px;
   margin: auto;
 }
 
@@ -42,22 +51,23 @@
 
 #nameInput::placeholder,
 #scoreInput::placeholder {
-  color: black;
+  color: #4b4a4a; 
 }
 
 #nameInput,
 #scoreInput,
 #submitButton {
   margin-bottom: 20px;
-  border: 2px solid black;
+  border: 2px solid powderblue;
   padding: 3px;
   padding-left: 10px;
   padding-right: 10px;
   width: 80%;
+  color: #4b4a4a;
 }
 
 #score_table li:nth-child(even) {
-  background-color: rgb(196, 193, 193);
+  background-color: rgb(219 237 240);
 }
 
 .padding-left-unset {
@@ -82,4 +92,12 @@
 
 #submitButton {
   width: 80px;
+}
+
+#add_score  h3 {
+padding-left: 20px;
+}
+
+#refresh_button button{
+  color: #4b4a4a;
 }
