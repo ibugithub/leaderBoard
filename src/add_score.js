@@ -20,8 +20,12 @@ class AddScore {
      form.addEventListener('submit', (event) => {
        event.preventDefault();
        const formData = new FormData(form);
-       gameApi.sendScore(formData.get('name'), parseInt(formData.get('score'), 10));
-       form.reset();
+       const name = formData.get('name');
+       const score = formData.get('score');
+       if (name !== '' && score !== '') {
+         gameApi.sendScore(name, parseInt(score, 10));
+         form.reset();
+       }
      });
    };
 
